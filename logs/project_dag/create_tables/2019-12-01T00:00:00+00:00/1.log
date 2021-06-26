@@ -1,0 +1,854 @@
+[2021-04-24 10:52:28,314] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-24 10:52:28,822] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-24 10:52:28,824] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 10:52:28,826] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-24 10:52:28,827] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 10:52:29,313] {taskinstance.py:1089} INFO - Executing <Task(PostgresOperator): create_tables> on 2019-12-01T00:00:00+00:00
+[2021-04-24 10:52:29,341] {standard_task_runner.py:52} INFO - Started process 66 to run task
+[2021-04-24 10:52:29,409] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'create_tables', '2019-12-01T00:00:00+00:00', '--job-id', '11', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpyy64jvlm', '--error-file', '/tmp/tmpxk6mk0ws']
+[2021-04-24 10:52:29,417] {standard_task_runner.py:77} INFO - Job 11: Subtask create_tables
+[2021-04-24 10:52:30,283] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [running]> on host 53be67297d88
+[2021-04-24 10:52:30,825] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernest@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2019-12-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-12-01T00:00:00+00:00
+[2021-04-24 10:52:30,826] {postgres.py:69} INFO - Executing: CREATE TABLE public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+
+[2021-04-24 10:52:30,898] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-24 10:52:41,564] {dbapi.py:180} INFO - Running statement: CREATE TABLE public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+, parameters: None
+[2021-04-24 10:52:42,102] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py", line 71, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key violates unique constraint "pg_class_relname_nsp_index" (possibly caused by concurrent transaction conflict)
+
+[2021-04-24 10:52:46,291] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=project_dag, task_id=create_tables, execution_date=20191201T000000, start_date=20210424T105228, end_date=20210424T105246
+[2021-04-24 10:52:50,304] {local_task_job.py:146} INFO - Task exited with return code 1
+[2021-04-24 11:38:48,459] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-24 11:38:48,717] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-24 11:38:48,718] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 11:38:48,718] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-24 11:38:48,718] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 11:38:49,001] {taskinstance.py:1089} INFO - Executing <Task(PostgresOperator): create_tables> on 2019-12-01T00:00:00+00:00
+[2021-04-24 11:38:49,050] {standard_task_runner.py:52} INFO - Started process 75 to run task
+[2021-04-24 11:38:49,109] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'create_tables', '2019-12-01T00:00:00+00:00', '--job-id', '13', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpfui0pk3y', '--error-file', '/tmp/tmpa7whd18z']
+[2021-04-24 11:38:49,113] {standard_task_runner.py:77} INFO - Job 13: Subtask create_tables
+[2021-04-24 11:38:50,302] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [running]> on host 88dcd2a12842
+[2021-04-24 11:38:53,145] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernest@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2019-12-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-12-01T00:00:00+00:00
+[2021-04-24 11:38:53,204] {postgres.py:69} INFO - Executing: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+
+[2021-04-24 11:38:53,426] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-24 11:38:58,197] {dbapi.py:180} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+, parameters: None
+[2021-04-24 11:38:58,621] {dbapi.py:186} INFO - Rows affected: -1
+[2021-04-24 11:38:59,790] {postgres.py:73} INFO - INFO:  Relation "artists" already exists and will be skipped
+
+[2021-04-24 11:38:59,791] {postgres.py:73} INFO - INFO:  Relation "songplays" already exists and will be skipped
+
+[2021-04-24 11:38:59,791] {postgres.py:73} INFO - INFO:  Relation "songs" already exists and will be skipped
+
+[2021-04-24 11:38:59,791] {postgres.py:73} INFO - INFO:  Relation "staging_events" already exists and will be skipped
+
+[2021-04-24 11:38:59,791] {postgres.py:73} INFO - INFO:  Relation "staging_songs" already exists and will be skipped
+
+[2021-04-24 11:38:59,791] {postgres.py:73} INFO - INFO:  Relation "time" already exists and will be skipped
+
+[2021-04-24 11:38:59,791] {postgres.py:73} INFO - INFO:  Relation "users" already exists and will be skipped
+
+[2021-04-24 11:39:00,894] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=project_dag, task_id=create_tables, execution_date=20191201T000000, start_date=20210424T113848, end_date=20210424T113900
+[2021-04-24 11:39:05,429] {taskinstance.py:1246} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2021-04-24 11:39:05,519] {local_task_job.py:146} INFO - Task exited with return code 0
+[2021-04-27 20:14:58,830] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:15:01,069] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:15:01,070] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:15:01,070] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-27 20:15:01,070] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:15:02,433] {taskinstance.py:1089} INFO - Executing <Task(PostgresOperator): create_tables> on 2019-12-01T00:00:00+00:00
+[2021-04-27 20:15:02,477] {standard_task_runner.py:52} INFO - Started process 72 to run task
+[2021-04-27 20:15:02,591] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'create_tables', '2019-12-01T00:00:00+00:00', '--job-id', '9', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpsrzrmk20', '--error-file', '/tmp/tmpf6vejcde']
+[2021-04-27 20:15:02,677] {standard_task_runner.py:77} INFO - Job 9: Subtask create_tables
+[2021-04-27 20:15:05,180] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [running]> on host 88b3af0c26c0
+[2021-04-27 20:15:13,493] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2019-12-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-12-01T00:00:00+00:00
+[2021-04-27 20:15:14,012] {postgres.py:69} INFO - Executing: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+
+[2021-04-27 20:15:14,393] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-27 20:15:21,158] {dbapi.py:180} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+, parameters: None
+[2021-04-27 20:15:21,593] {dbapi.py:186} INFO - Rows affected: -1
+[2021-04-27 20:15:22,045] {postgres.py:73} INFO - INFO:  Relation "artists" already exists and will be skipped
+
+[2021-04-27 20:15:22,075] {postgres.py:73} INFO - INFO:  Relation "songplays" already exists and will be skipped
+
+[2021-04-27 20:15:22,075] {postgres.py:73} INFO - INFO:  Relation "songs" already exists and will be skipped
+
+[2021-04-27 20:15:22,075] {postgres.py:73} INFO - INFO:  Relation "staging_events" already exists and will be skipped
+
+[2021-04-27 20:15:22,075] {postgres.py:73} INFO - INFO:  Relation "staging_songs" already exists and will be skipped
+
+[2021-04-27 20:15:22,075] {postgres.py:73} INFO - INFO:  Relation "time" already exists and will be skipped
+
+[2021-04-27 20:15:22,075] {postgres.py:73} INFO - INFO:  Relation "users" already exists and will be skipped
+
+[2021-04-27 20:15:22,315] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=project_dag, task_id=create_tables, execution_date=20191201T000000, start_date=20210427T201458, end_date=20210427T201522
+[2021-04-27 20:15:22,790] {taskinstance.py:1246} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2021-04-27 20:15:24,192] {local_task_job.py:146} INFO - Task exited with return code 0
+[2021-04-27 20:33:02,526] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:33:03,102] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:33:03,180] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:33:03,180] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-27 20:33:03,180] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:33:04,125] {taskinstance.py:1089} INFO - Executing <Task(PostgresOperator): create_tables> on 2019-12-01T00:00:00+00:00
+[2021-04-27 20:33:05,047] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'create_tables', '2019-12-01T00:00:00+00:00', '--job-id', '19', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmph06e_im6', '--error-file', '/tmp/tmpxmn4beh8']
+[2021-04-27 20:33:05,063] {standard_task_runner.py:77} INFO - Job 19: Subtask create_tables
+[2021-04-27 20:33:04,708] {standard_task_runner.py:52} INFO - Started process 82 to run task
+[2021-04-27 20:33:08,441] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.create_tables 2019-12-01T00:00:00+00:00 [running]> on host 478c7ec349b0
+[2021-04-27 20:33:10,593] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2019-12-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-12-01T00:00:00+00:00
+[2021-04-27 20:33:10,597] {postgres.py:69} INFO - Executing: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+
+[2021-04-27 20:33:11,210] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-27 20:33:12,833] {dbapi.py:180} INFO - Running statement: CREATE TABLE IF NOT EXISTS public.artists (
+	artistid varchar(256) NOT NULL,
+	name varchar(256),
+	location varchar(256),
+	lattitude numeric(18,0),
+	longitude numeric(18,0)
+);
+
+CREATE TABLE IF NOT EXISTS public.songplays (
+	playid varchar(32) NOT NULL,
+	start_time timestamp NOT NULL,
+	userid int4 NOT NULL,
+	"level" varchar(256),
+	songid varchar(256),
+	artistid varchar(256),
+	sessionid int4,
+	location varchar(256),
+	user_agent varchar(256),
+	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
+);
+
+CREATE TABLE IF NOT EXISTS public.songs (
+	songid varchar(256) NOT NULL,
+	title varchar(256),
+	artistid varchar(256),
+	"year" int4,
+	duration numeric(18,0),
+	CONSTRAINT songs_pkey PRIMARY KEY (songid)
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_events (
+	artist varchar(256),
+	auth varchar(256),
+	firstname varchar(256),
+	gender varchar(256),
+	iteminsession int4,
+	lastname varchar(256),
+	length numeric(18,0),
+	"level" varchar(256),
+	location varchar(256),
+	"method" varchar(256),
+	page varchar(256),
+	registration numeric(18,0),
+	sessionid int4,
+	song varchar(256),
+	status int4,
+	ts int8,
+	useragent varchar(256),
+	userid int4
+);
+
+CREATE TABLE IF NOT EXISTS public.staging_songs (
+	num_songs int4,
+	artist_id varchar(256),
+	artist_name varchar(256),
+	artist_latitude numeric(18,0),
+	artist_longitude numeric(18,0),
+	artist_location varchar(256),
+	song_id varchar(256),
+	title varchar(256),
+	duration numeric(18,0),
+	"year" int4
+);
+
+CREATE TABLE IF NOT EXISTS public."time" (
+	start_time timestamp NOT NULL,
+	"hour" int4,
+	"day" int4,
+	week int4,
+	"month" varchar(256),
+	"year" int4,
+	weekday varchar(256),
+	CONSTRAINT time_pkey PRIMARY KEY (start_time)
+);
+
+CREATE TABLE IF NOT EXISTS public.users (
+	userid int4 NOT NULL,
+	first_name varchar(256),
+	last_name varchar(256),
+	gender varchar(256),
+	"level" varchar(256),
+	CONSTRAINT users_pkey PRIMARY KEY (userid)
+);
+
+
+
+
+, parameters: None
+[2021-04-27 20:33:13,243] {dbapi.py:186} INFO - Rows affected: -1
+[2021-04-27 20:33:13,589] {postgres.py:73} INFO - INFO:  Relation "artists" already exists and will be skipped
+
+[2021-04-27 20:33:13,595] {postgres.py:73} INFO - INFO:  Relation "songplays" already exists and will be skipped
+
+[2021-04-27 20:33:13,610] {postgres.py:73} INFO - INFO:  Relation "songs" already exists and will be skipped
+
+[2021-04-27 20:33:13,617] {postgres.py:73} INFO - INFO:  Relation "staging_events" already exists and will be skipped
+
+[2021-04-27 20:33:13,628] {postgres.py:73} INFO - INFO:  Relation "staging_songs" already exists and will be skipped
+
+[2021-04-27 20:33:13,628] {postgres.py:73} INFO - INFO:  Relation "time" already exists and will be skipped
+
+[2021-04-27 20:33:13,628] {postgres.py:73} INFO - INFO:  Relation "users" already exists and will be skipped
+
+[2021-04-27 20:33:13,822] {taskinstance.py:1192} INFO - Marking task as SUCCESS. dag_id=project_dag, task_id=create_tables, execution_date=20191201T000000, start_date=20210427T203302, end_date=20210427T203313
+[2021-04-27 20:33:15,559] {taskinstance.py:1246} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2021-04-27 20:33:16,275] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,33 @@
+[2021-04-27 19:26:12,831] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2021-04-27T19:24:51.442947+00:00 [queued]>
+[2021-04-27 19:26:13,003] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2021-04-27T19:24:51.442947+00:00 [queued]>
+[2021-04-27 19:26:13,003] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 19:26:13,004] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-27 19:26:13,004] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 19:26:13,273] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_songs> on 2021-04-27T19:24:51.442947+00:00
+[2021-04-27 19:26:13,367] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_songs', '2021-04-27T19:24:51.442947+00:00', '--job-id', '81', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmptzc6wl6w', '--error-file', '/tmp/tmpdsxptbf7']
+[2021-04-27 19:26:13,337] {standard_task_runner.py:52} INFO - Started process 89 to run task
+[2021-04-27 19:26:13,375] {standard_task_runner.py:77} INFO - Job 81: Subtask Stage_songs
+[2021-04-27 19:26:13,591] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_songs 2021-04-27T19:24:51.442947+00:00 [running]> on host 0f1e1da1f4f6
+[2021-04-27 19:26:13,906] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_songs
+AIRFLOW_CTX_EXECUTION_DATE=2021-04-27T19:24:51.442947+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-04-27T19:24:51.442947+00:00
+[2021-04-27 19:26:13,908] {stage_redshift.py:65} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-27 19:26:13,910] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 66, in execute
+    s3 = S3hook(aws_conn_id=self.aws_credentials_id)
+NameError: name 'S3hook' is not defined
+[2021-04-27 19:26:14,508] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=project_dag, task_id=Stage_songs, execution_date=20210427T192451, start_date=20210427T192612, end_date=20210427T192614
+[2021-04-27 19:26:14,767] {local_task_job.py:146} INFO - Task exited with return code 1

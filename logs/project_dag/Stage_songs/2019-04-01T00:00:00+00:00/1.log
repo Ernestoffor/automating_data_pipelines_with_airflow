@@ -1,0 +1,112 @@
+[2021-04-24 11:38:56,058] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [queued]>
+[2021-04-24 11:38:56,567] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [queued]>
+[2021-04-24 11:38:56,567] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 11:38:56,567] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-24 11:38:56,567] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 11:38:56,890] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_songs> on 2019-04-01T00:00:00+00:00
+[2021-04-24 11:38:56,941] {standard_task_runner.py:52} INFO - Started process 85 to run task
+[2021-04-24 11:38:57,162] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_songs', '2019-04-01T00:00:00+00:00', '--job-id', '24', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpurm4ib49', '--error-file', '/tmp/tmp30jahtyg']
+[2021-04-24 11:38:57,176] {standard_task_runner.py:77} INFO - Job 24: Subtask Stage_songs
+[2021-04-24 11:38:58,091] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [running]> on host 88dcd2a12842
+[2021-04-24 11:39:00,150] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernest@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_songs
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-01T00:00:00+00:00
+[2021-04-24 11:39:00,151] {stage_redshift.py:38} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-24 11:39:00,221] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 39, in execute
+    aws_hook = AwsHook(self.aws_credentials_id)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/hooks/aws_hook.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 360, in __init__
+    raise AirflowException('Either client_type or resource_type must be provided.')
+airflow.exceptions.AirflowException: Either client_type or resource_type must be provided.
+[2021-04-24 11:39:02,806] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=project_dag, task_id=Stage_songs, execution_date=20190401T000000, start_date=20210424T113856, end_date=20210424T113901
+[2021-04-24 11:39:05,754] {local_task_job.py:146} INFO - Task exited with return code 1
+[2021-04-27 20:15:55,050] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:15:55,772] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:15:55,787] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:15:55,800] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-27 20:15:55,808] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:15:56,262] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_songs> on 2019-04-01T00:00:00+00:00
+[2021-04-27 20:15:56,883] {standard_task_runner.py:52} INFO - Started process 102 to run task
+[2021-04-27 20:15:58,862] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_songs', '2019-04-01T00:00:00+00:00', '--job-id', '30', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpolety23b', '--error-file', '/tmp/tmpaitwxvjy']
+[2021-04-27 20:15:58,934] {standard_task_runner.py:77} INFO - Job 30: Subtask Stage_songs
+[2021-04-27 20:16:06,660] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [running]> on host 88b3af0c26c0
+[2021-04-27 20:16:09,798] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_songs
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-01T00:00:00+00:00
+[2021-04-27 20:16:09,806] {stage_redshift.py:65} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-27 20:16:09,807] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 66, in execute
+    s3 = S3Hook(aws_conn_id=self.aws_credentials_id)
+AttributeError: 'StageToRedshiftOperator' object has no attribute 'aws_credentials_id'
+[2021-04-27 20:16:10,011] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=project_dag, task_id=Stage_songs, execution_date=20190401T000000, start_date=20210427T201555, end_date=20210427T201610
+[2021-04-27 20:16:15,240] {local_task_job.py:188} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2021-04-27 20:16:15,311] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 102
+[2021-04-27 20:16:19,214] {process_utils.py:66} INFO - Process psutil.Process(pid=102, status='terminated', exitcode=1, started='20:15:56') (102) terminated with exit code 1
+[2021-04-27 20:32:51,013] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:32:51,731] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [queued]>
+[2021-04-27 20:32:51,731] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:32:51,731] {taskinstance.py:1069} INFO - Starting attempt 1 of 2
+[2021-04-27 20:32:51,731] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-27 20:32:52,717] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_songs> on 2019-04-01T00:00:00+00:00
+[2021-04-27 20:32:53,363] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_songs', '2019-04-01T00:00:00+00:00', '--job-id', '14', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpqyb8v4cv', '--error-file', '/tmp/tmpwbv4f49p']
+[2021-04-27 20:32:53,591] {standard_task_runner.py:77} INFO - Job 14: Subtask Stage_songs
+[2021-04-27 20:32:53,219] {standard_task_runner.py:52} INFO - Started process 74 to run task
+[2021-04-27 20:32:56,249] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_songs 2019-04-01T00:00:00+00:00 [running]> on host 478c7ec349b0
+[2021-04-27 20:32:58,708] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_songs
+AIRFLOW_CTX_EXECUTION_DATE=2019-04-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-04-01T00:00:00+00:00
+[2021-04-27 20:32:58,736] {stage_redshift.py:67} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-27 20:32:58,785] {stage_redshift.py:74} INFO - Preparing destination Redshift table
+[2021-04-27 20:32:59,060] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-27 20:33:00,581] {dbapi.py:180} INFO - Running statement: DELETE FROM staging_songs, parameters: None
+[2021-04-27 20:33:01,065] {dbapi.py:186} INFO - Rows affected: 0
+[2021-04-27 20:33:01,386] {stage_redshift.py:77} INFO - Getting data from S3 to Redshift
+[2021-04-27 20:33:04,636] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 83, in execute
+    s3.get_credentials().access_key,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 478, in get_credentials
+    return session.get_credentials().get_frozen_credentials()
+AttributeError: 'NoneType' object has no attribute 'get_frozen_credentials'
+[2021-04-27 20:33:05,317] {taskinstance.py:1532} INFO - Marking task as UP_FOR_RETRY. dag_id=project_dag, task_id=Stage_songs, execution_date=20190401T000000, start_date=20210427T203251, end_date=20210427T203305
+[2021-04-27 20:33:06,262] {local_task_job.py:146} INFO - Task exited with return code 1

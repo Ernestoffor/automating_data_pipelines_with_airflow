@@ -1,0 +1,210 @@
+[2021-04-24 11:51:15,108] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [queued]>
+[2021-04-24 11:51:15,257] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [queued]>
+[2021-04-24 11:51:15,258] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 11:51:15,258] {taskinstance.py:1069} INFO - Starting attempt 2 of 2
+[2021-04-24 11:51:15,258] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-24 11:51:15,471] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_events> on 2021-03-01T00:00:00+00:00
+[2021-04-24 11:51:15,524] {standard_task_runner.py:52} INFO - Started process 297 to run task
+[2021-04-24 11:51:15,599] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_events', '2021-03-01T00:00:00+00:00', '--job-id', '129', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmp5mdoalsb', '--error-file', '/tmp/tmp2k1kj68m']
+[2021-04-24 11:51:15,599] {standard_task_runner.py:77} INFO - Job 129: Subtask Stage_events
+[2021-04-24 11:51:16,108] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [running]> on host 88dcd2a12842
+[2021-04-24 11:51:16,740] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernest@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_events
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-01T00:00:00+00:00
+[2021-04-24 11:51:16,741] {stage_redshift.py:38} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-24 11:51:16,829] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 39, in execute
+    aws_hook = AwsHook(self.aws_credentials_id)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/hooks/aws_hook.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 360, in __init__
+    raise AirflowException('Either client_type or resource_type must be provided.')
+airflow.exceptions.AirflowException: Either client_type or resource_type must be provided.
+[2021-04-24 11:51:16,852] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=project_dag, task_id=Stage_events, execution_date=20210301T000000, start_date=20210424T115115, end_date=20210424T115116
+[2021-04-24 11:51:17,142] {configuration.py:352} WARNING - section/key [smtp/smtp_user] not found in config
+[2021-04-24 11:51:17,143] {email.py:184} INFO - Email alerting: attempt 1
+[2021-04-24 11:51:17,172] {configuration.py:352} WARNING - section/key [smtp/smtp_user] not found in config
+[2021-04-24 11:51:17,172] {email.py:184} INFO - Email alerting: attempt 1
+[2021-04-24 11:51:17,175] {taskinstance.py:1538} ERROR - Failed to send email to: ['ernest@gmail.com.com']
+[2021-04-24 11:51:17,175] {taskinstance.py:1539} ERROR - [Errno 99] Cannot assign requested address
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 39, in execute
+    aws_hook = AwsHook(self.aws_credentials_id)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/contrib/hooks/aws_hook.py", line 41, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 360, in __init__
+    raise AirflowException('Either client_type or resource_type must be provided.')
+airflow.exceptions.AirflowException: Either client_type or resource_type must be provided.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1881, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 62, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 97, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 186, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 220, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1536, in handle_failure
+    self.email_alert(error)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1883, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 62, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 97, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 186, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/email.py", line 220, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2021-04-24 11:51:17,434] {local_task_job.py:146} INFO - Task exited with return code 1
+[2021-04-26 09:14:03,909] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [queued]>
+[2021-04-26 09:14:04,341] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [queued]>
+[2021-04-26 09:14:04,341] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-26 09:14:04,342] {taskinstance.py:1069} INFO - Starting attempt 2 of 2
+[2021-04-26 09:14:04,342] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-26 09:14:04,845] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_events> on 2021-03-01T00:00:00+00:00
+[2021-04-26 09:14:04,909] {standard_task_runner.py:52} INFO - Started process 164 to run task
+[2021-04-26 09:14:05,177] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_events', '2021-03-01T00:00:00+00:00', '--job-id', '58', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmp3c3uxwka', '--error-file', '/tmp/tmpzsquuumv']
+[2021-04-26 09:14:05,178] {standard_task_runner.py:77} INFO - Job 58: Subtask Stage_events
+[2021-04-26 09:14:07,602] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [running]> on host b5c40a6f08c7
+[2021-04-26 09:14:08,948] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_events
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-01T00:00:00+00:00
+[2021-04-26 09:14:08,949] {stage_redshift.py:63} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-26 09:14:08,949] {stage_redshift.py:68} INFO - Preparing destination Redshift table
+[2021-04-26 09:14:09,078] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-26 09:14:10,533] {dbapi.py:180} INFO - Running statement: DELETE FROM staging_events, parameters: None
+[2021-04-26 09:14:10,963] {dbapi.py:186} INFO - Rows affected: 0
+[2021-04-26 09:14:11,295] {stage_redshift.py:71} INFO - Getting data from S3 to Redshift
+[2021-04-26 09:14:11,399] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-26 09:14:12,884] {dbapi.py:180} INFO - Running statement: 
+             COPY staging_events 
+             FROM 's3://udacity-dend/log_data/2018/11/*'
+             FORMAT AS JSON 'log_json_path.json'
+             CREDENTIALS
+             'aws_access_key_id=None;aws_secret_access_key=None'
+                , parameters: None
+[2021-04-26 09:14:13,671] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 81, in execute
+    redshift.run(execution_sql)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    cur.execute(sql_statement)
+psycopg2.errors.InternalError_: S3ServiceException:The AWS Access Key Id you provided does not exist in our records.,Status 403,Error InvalidAccessKeyId,Rid 9DB7VK98EMJ8Q35N,ExtRid YcE4F5qDT5SCJKG5ZB7VDQwdk/uHRQOlDf4S2t3ksSQJRZHf3K4bmMHzrQOKxOhKMGjkS5oD3+0=,CanRetry 1
+DETAIL:  
+  -----------------------------------------------
+  error:  S3ServiceException:The AWS Access Key Id you provided does not exist in our records.,Status 403,Error InvalidAccessKeyId,Rid 9DB7VK98EMJ8Q35N,ExtRid YcE4F5qDT5SCJKG5ZB7VDQwdk/uHRQOlDf4S2t3ksSQJRZHf3K4bmMHzrQOKxOhKMGjkS5oD3+0=,CanRetry 1
+  code:      8001
+  context:   Listing bucket=udacity-dend prefix=log_data/2018/11/*
+  query:     358
+  location:  s3_utility.cpp:654
+  process:   padbmaster [pid=15449]
+  -----------------------------------------------
+
+
+[2021-04-26 09:14:13,706] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=project_dag, task_id=Stage_events, execution_date=20210301T000000, start_date=20210426T091404, end_date=20210426T091413
+[2021-04-26 09:14:14,458] {local_task_job.py:146} INFO - Task exited with return code 1
+[2021-04-26 12:42:27,403] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [queued]>
+[2021-04-26 12:42:27,641] {taskinstance.py:877} INFO - Dependencies all met for <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [queued]>
+[2021-04-26 12:42:27,642] {taskinstance.py:1068} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-26 12:42:27,642] {taskinstance.py:1069} INFO - Starting attempt 2 of 2
+[2021-04-26 12:42:27,642] {taskinstance.py:1070} INFO - 
+--------------------------------------------------------------------------------
+[2021-04-26 12:42:27,826] {taskinstance.py:1089} INFO - Executing <Task(StageToRedshiftOperator): Stage_events> on 2021-03-01T00:00:00+00:00
+[2021-04-26 12:42:27,869] {standard_task_runner.py:52} INFO - Started process 167 to run task
+[2021-04-26 12:42:27,909] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'project_dag', 'Stage_events', '2021-03-01T00:00:00+00:00', '--job-id', '58', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/udac_example_dag.py', '--cfg-path', '/tmp/tmpxnuie7xj', '--error-file', '/tmp/tmper3rgk1l']
+[2021-04-26 12:42:27,910] {standard_task_runner.py:77} INFO - Job 58: Subtask Stage_events
+[2021-04-26 12:42:28,297] {logging_mixin.py:104} INFO - Running <TaskInstance: project_dag.Stage_events 2021-03-01T00:00:00+00:00 [running]> on host 0f1e1da1f4f6
+[2021-04-26 12:42:28,406] {taskinstance.py:1283} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=ernestoffor@gmail.com.com
+AIRFLOW_CTX_DAG_OWNER=udacity
+AIRFLOW_CTX_DAG_ID=project_dag
+AIRFLOW_CTX_TASK_ID=Stage_events
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-01T00:00:00+00:00
+[2021-04-26 12:42:28,409] {stage_redshift.py:62} INFO - Start implementation of StageToRedshiftOperator
+[2021-04-26 12:42:28,410] {stage_redshift.py:67} INFO - Preparing destination Redshift table
+[2021-04-26 12:42:28,433] {base.py:78} INFO - Using connection to: id: redshift. Host: redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com, Port: 5439, Schema: dev, Login: awsuser, Password: XXXXXXXX, extra: None
+[2021-04-26 12:42:28,474] {taskinstance.py:1482} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1138, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1311, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1341, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/opt/airflow/plugins/operators/stage_redshift.py", line 68, in execute
+    redshift.run("DELETE FROM {}".format(self.staging_table))
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 173, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/hooks/postgres.py", line 108, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.6/site-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "redshift.cxvwoeu3kuea.us-west-2.redshift.amazonaws.com" to address: Name or service not known
+
+[2021-04-26 12:42:28,479] {taskinstance.py:1532} INFO - Marking task as FAILED. dag_id=project_dag, task_id=Stage_events, execution_date=20210301T000000, start_date=20210426T124227, end_date=20210426T124228
+[2021-04-26 12:42:28,675] {local_task_job.py:146} INFO - Task exited with return code 1

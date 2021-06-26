@@ -8,22 +8,18 @@ class LoadFactOperator(BaseOperator):
 
     ui_color = '#F98866'
     load_table_insert = """
-                 INSERT INTO  {} {}
+                 INSERT INTO {} {}
                             """
     truncate_table_sql = """
                         TRUNCATE TABLE {}
                         """
     @apply_defaults
     def __init__(self,
-                 # Define your operators params (with defaults) here
-                 
-                 # Example:
                  redshift_conn_id="",
                  load_table_query="",
                  table="",
                  operation="",
                  *args, **kwargs):
-
         super(LoadFactOperator, self).__init__(*args, **kwargs)
         # Map params here
         # Example:

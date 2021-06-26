@@ -1,0 +1,1103 @@
+[2021-04-27 18:50:41,060] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:50:41,062] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 18:50:41,066] {logging_mixin.py:104} INFO - [2021-04-27 18:50:41,065] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:51:00,406] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:51:00,557] {logging_mixin.py:104} INFO - [2021-04-27 18:51:00,557] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 18:51:01,035] {logging_mixin.py:104} INFO - [2021-04-27 18:51:01,035] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 18:51:01,721] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 20.666 seconds
+[2021-04-27 18:51:31,834] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:51:31,836] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 18:51:31,837] {logging_mixin.py:104} INFO - [2021-04-27 18:51:31,837] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:51:32,466] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:51:32,512] {logging_mixin.py:104} INFO - [2021-04-27 18:51:32,512] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 18:51:32,555] {logging_mixin.py:104} INFO - [2021-04-27 18:51:32,555] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 18:51:33,027] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.199 seconds
+[2021-04-27 18:52:03,153] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:52:03,162] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 18:52:03,163] {logging_mixin.py:104} INFO - [2021-04-27 18:52:03,163] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:52:04,235] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:52:04,352] {logging_mixin.py:104} INFO - [2021-04-27 18:52:04,350] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 18:52:04,518] {logging_mixin.py:104} INFO - [2021-04-27 18:52:04,518] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 18:52:04,669] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.531 seconds
+[2021-04-27 18:52:34,853] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:52:34,855] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 18:52:34,860] {logging_mixin.py:104} INFO - [2021-04-27 18:52:34,860] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:52:35,511] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 18:52:35,621] {logging_mixin.py:104} INFO - [2021-04-27 18:52:35,615] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 18:52:35,721] {logging_mixin.py:104} INFO - [2021-04-27 18:52:35,721] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 18:52:35,822] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.982 seconds
+[2021-04-27 19:06:45,839] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:06:45,850] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:06:45,870] {logging_mixin.py:104} INFO - [2021-04-27 19:06:45,870] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:06:46,808] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:06:46,907] {logging_mixin.py:104} INFO - [2021-04-27 19:06:46,907] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:06:46,986] {logging_mixin.py:104} INFO - [2021-04-27 19:06:46,979] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:06:47,029] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.270 seconds
+[2021-04-27 19:07:17,289] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:07:17,305] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:07:17,307] {logging_mixin.py:104} INFO - [2021-04-27 19:07:17,307] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:07:18,247] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:07:18,365] {logging_mixin.py:104} INFO - [2021-04-27 19:07:18,364] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:07:18,441] {logging_mixin.py:104} INFO - [2021-04-27 19:07:18,441] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:07:18,489] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.237 seconds
+[2021-04-27 19:07:48,623] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:07:48,650] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:07:48,658] {logging_mixin.py:104} INFO - [2021-04-27 19:07:48,657] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:07:49,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:07:49,237] {logging_mixin.py:104} INFO - [2021-04-27 19:07:49,236] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:07:49,314] {logging_mixin.py:104} INFO - [2021-04-27 19:07:49,314] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:07:49,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.808 seconds
+[2021-04-27 19:08:19,633] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:08:19,642] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:08:19,646] {logging_mixin.py:104} INFO - [2021-04-27 19:08:19,646] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:08:21,023] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:08:21,097] {logging_mixin.py:104} INFO - [2021-04-27 19:08:21,096] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:08:21,170] {logging_mixin.py:104} INFO - [2021-04-27 19:08:21,170] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:08:21,235] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.612 seconds
+[2021-04-27 19:08:51,479] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:08:51,492] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:08:51,501] {logging_mixin.py:104} INFO - [2021-04-27 19:08:51,501] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:08:53,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:08:53,451] {logging_mixin.py:104} INFO - [2021-04-27 19:08:53,450] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:08:53,524] {logging_mixin.py:104} INFO - [2021-04-27 19:08:53,523] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:08:53,562] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.117 seconds
+[2021-04-27 19:09:23,640] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:09:23,652] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:09:23,656] {logging_mixin.py:104} INFO - [2021-04-27 19:09:23,655] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:09:25,115] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:09:25,255] {logging_mixin.py:104} INFO - [2021-04-27 19:09:25,255] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:09:25,318] {logging_mixin.py:104} INFO - [2021-04-27 19:09:25,318] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:09:25,359] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.733 seconds
+[2021-04-27 19:09:55,540] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:09:55,542] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:09:55,544] {logging_mixin.py:104} INFO - [2021-04-27 19:09:55,543] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:09:56,233] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:09:56,312] {logging_mixin.py:104} INFO - [2021-04-27 19:09:56,312] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:09:56,392] {logging_mixin.py:104} INFO - [2021-04-27 19:09:56,371] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:09:56,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.956 seconds
+[2021-04-27 19:10:26,615] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:10:26,624] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:10:26,628] {logging_mixin.py:104} INFO - [2021-04-27 19:10:26,627] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:10:27,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:10:27,269] {logging_mixin.py:104} INFO - [2021-04-27 19:10:27,268] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:10:27,339] {logging_mixin.py:104} INFO - [2021-04-27 19:10:27,339] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:10:27,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.778 seconds
+[2021-04-27 19:10:57,565] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:10:57,573] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:10:57,580] {logging_mixin.py:104} INFO - [2021-04-27 19:10:57,574] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:10:58,986] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:10:59,241] {logging_mixin.py:104} INFO - [2021-04-27 19:10:59,241] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:10:59,399] {logging_mixin.py:104} INFO - [2021-04-27 19:10:59,399] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:10:59,501] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.964 seconds
+[2021-04-27 19:11:29,742] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:11:29,755] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:11:29,756] {logging_mixin.py:104} INFO - [2021-04-27 19:11:29,756] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:11:30,400] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:11:30,515] {logging_mixin.py:104} INFO - [2021-04-27 19:11:30,514] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:11:30,580] {logging_mixin.py:104} INFO - [2021-04-27 19:11:30,580] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:11:30,642] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.906 seconds
+[2021-04-27 19:12:01,078] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:12:01,091] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:12:01,099] {logging_mixin.py:104} INFO - [2021-04-27 19:12:01,094] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:12:03,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:12:03,649] {logging_mixin.py:104} INFO - [2021-04-27 19:12:03,649] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:12:03,878] {logging_mixin.py:104} INFO - [2021-04-27 19:12:03,878] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:12:04,033] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 3.015 seconds
+[2021-04-27 19:12:34,294] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:12:34,308] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:12:34,310] {logging_mixin.py:104} INFO - [2021-04-27 19:12:34,309] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:12:36,187] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:12:36,482] {logging_mixin.py:104} INFO - [2021-04-27 19:12:36,481] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:12:36,638] {logging_mixin.py:104} INFO - [2021-04-27 19:12:36,638] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:12:36,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.440 seconds
+[2021-04-27 19:13:06,872] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:13:06,878] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:13:06,894] {logging_mixin.py:104} INFO - [2021-04-27 19:13:06,893] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:13:07,582] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:13:07,778] {logging_mixin.py:104} INFO - [2021-04-27 19:13:07,778] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:13:07,861] {logging_mixin.py:104} INFO - [2021-04-27 19:13:07,861] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:13:07,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.042 seconds
+[2021-04-27 19:13:38,033] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:13:38,039] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:13:38,045] {logging_mixin.py:104} INFO - [2021-04-27 19:13:38,044] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:13:38,732] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:13:38,858] {logging_mixin.py:104} INFO - [2021-04-27 19:13:38,858] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:13:38,984] {logging_mixin.py:104} INFO - [2021-04-27 19:13:38,984] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:13:39,043] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.016 seconds
+[2021-04-27 19:14:09,219] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:14:09,224] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:14:09,228] {logging_mixin.py:104} INFO - [2021-04-27 19:14:09,227] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:14:09,924] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:14:10,001] {logging_mixin.py:104} INFO - [2021-04-27 19:14:10,000] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:14:10,097] {logging_mixin.py:104} INFO - [2021-04-27 19:14:10,096] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:14:10,183] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.970 seconds
+[2021-04-27 19:14:40,434] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:14:40,451] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:14:40,455] {logging_mixin.py:104} INFO - [2021-04-27 19:14:40,455] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:14:41,368] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:14:41,490] {logging_mixin.py:104} INFO - [2021-04-27 19:14:41,490] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:14:41,568] {logging_mixin.py:104} INFO - [2021-04-27 19:14:41,567] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:14:41,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.214 seconds
+[2021-04-27 19:15:11,794] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:15:11,806] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:15:11,811] {logging_mixin.py:104} INFO - [2021-04-27 19:15:11,811] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:15:12,546] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:15:12,658] {logging_mixin.py:104} INFO - [2021-04-27 19:15:12,657] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:15:12,706] {logging_mixin.py:104} INFO - [2021-04-27 19:15:12,706] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:15:12,790] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.002 seconds
+[2021-04-27 19:15:43,884] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:15:43,890] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:15:43,894] {logging_mixin.py:104} INFO - [2021-04-27 19:15:43,893] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:15:46,722] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:15:46,912] {logging_mixin.py:104} INFO - [2021-04-27 19:15:46,912] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:15:47,123] {logging_mixin.py:104} INFO - [2021-04-27 19:15:47,123] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:15:47,350] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 3.512 seconds
+[2021-04-27 19:16:17,662] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:16:17,673] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:16:17,675] {logging_mixin.py:104} INFO - [2021-04-27 19:16:17,675] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:16:18,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:16:18,322] {logging_mixin.py:104} INFO - [2021-04-27 19:16:18,321] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:16:18,396] {logging_mixin.py:104} INFO - [2021-04-27 19:16:18,395] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:16:18,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.826 seconds
+[2021-04-27 19:16:48,798] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:16:48,824] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:16:48,832] {logging_mixin.py:104} INFO - [2021-04-27 19:16:48,832] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:16:50,572] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:16:50,840] {logging_mixin.py:104} INFO - [2021-04-27 19:16:50,839] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:16:51,262] {logging_mixin.py:104} INFO - [2021-04-27 19:16:51,261] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:16:51,364] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.659 seconds
+[2021-04-27 19:17:21,518] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:17:21,532] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:17:21,582] {logging_mixin.py:104} INFO - [2021-04-27 19:17:21,581] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:17:22,782] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:17:22,868] {logging_mixin.py:104} INFO - [2021-04-27 19:17:22,868] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:17:22,908] {logging_mixin.py:104} INFO - [2021-04-27 19:17:22,907] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:17:23,060] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.560 seconds
+[2021-04-27 19:17:53,247] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:17:53,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:17:53,269] {logging_mixin.py:104} INFO - [2021-04-27 19:17:53,269] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:17:53,871] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:17:54,060] {logging_mixin.py:104} INFO - [2021-04-27 19:17:54,059] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:17:54,133] {logging_mixin.py:104} INFO - [2021-04-27 19:17:54,133] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:17:54,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.974 seconds
+[2021-04-27 19:18:24,410] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:18:24,418] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:18:24,420] {logging_mixin.py:104} INFO - [2021-04-27 19:18:24,420] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:18:25,070] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:18:25,158] {logging_mixin.py:104} INFO - [2021-04-27 19:18:25,158] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:18:25,218] {logging_mixin.py:104} INFO - [2021-04-27 19:18:25,218] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:18:25,276] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.900 seconds
+[2021-04-27 19:18:55,515] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:18:55,522] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:18:55,528] {logging_mixin.py:104} INFO - [2021-04-27 19:18:55,523] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:18:56,390] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:18:56,524] {logging_mixin.py:104} INFO - [2021-04-27 19:18:56,523] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:18:56,727] {logging_mixin.py:104} INFO - [2021-04-27 19:18:56,727] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:18:56,788] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.296 seconds
+[2021-04-27 19:19:26,916] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:19:26,918] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:19:26,920] {logging_mixin.py:104} INFO - [2021-04-27 19:19:26,920] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:19:27,294] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:19:27,348] {logging_mixin.py:104} INFO - [2021-04-27 19:19:27,348] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:19:27,398] {logging_mixin.py:104} INFO - [2021-04-27 19:19:27,398] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:19:27,593] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.683 seconds
+[2021-04-27 19:19:57,847] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:19:57,853] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:19:57,857] {logging_mixin.py:104} INFO - [2021-04-27 19:19:57,856] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:19:58,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:19:58,806] {logging_mixin.py:104} INFO - [2021-04-27 19:19:58,806] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:19:58,974] {logging_mixin.py:104} INFO - [2021-04-27 19:19:58,967] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:19:59,069] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.253 seconds
+[2021-04-27 19:20:29,251] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:20:29,261] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:20:29,263] {logging_mixin.py:104} INFO - [2021-04-27 19:20:29,263] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:20:30,506] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:20:30,584] {logging_mixin.py:104} INFO - [2021-04-27 19:20:30,583] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:20:30,656] {logging_mixin.py:104} INFO - [2021-04-27 19:20:30,656] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:20:30,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.519 seconds
+[2021-04-27 19:21:00,823] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:21:00,825] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:21:00,826] {logging_mixin.py:104} INFO - [2021-04-27 19:21:00,826] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:21:01,268] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:21:01,333] {logging_mixin.py:104} INFO - [2021-04-27 19:21:01,332] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:21:01,374] {logging_mixin.py:104} INFO - [2021-04-27 19:21:01,374] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:21:01,424] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.608 seconds
+[2021-04-27 19:21:31,598] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:21:31,607] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:21:31,611] {logging_mixin.py:104} INFO - [2021-04-27 19:21:31,610] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:21:32,261] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:21:32,377] {logging_mixin.py:104} INFO - [2021-04-27 19:21:32,377] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:21:32,551] {logging_mixin.py:104} INFO - [2021-04-27 19:21:32,550] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-01-01 00:00:00+00:00
+[2021-04-27 19:21:32,653] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.078 seconds
+[2021-04-27 19:22:03,079] {scheduler_job.py:182} INFO - Started process (PID=53) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:22:03,087] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:22:03,098] {logging_mixin.py:104} INFO - [2021-04-27 19:22:03,097] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:22:04,343] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:22:04,627] {logging_mixin.py:104} INFO - [2021-04-27 19:22:04,626] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:22:04,802] {logging_mixin.py:104} INFO - [2021-04-27 19:22:04,802] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:22:04,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.907 seconds
+[2021-04-27 19:22:35,068] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:22:35,071] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:22:35,073] {logging_mixin.py:104} INFO - [2021-04-27 19:22:35,072] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:22:35,537] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:22:35,607] {logging_mixin.py:104} INFO - [2021-04-27 19:22:35,606] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:22:35,678] {logging_mixin.py:104} INFO - [2021-04-27 19:22:35,678] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:22:35,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.693 seconds
+[2021-04-27 19:23:06,977] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:23:07,001] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:23:07,004] {logging_mixin.py:104} INFO - [2021-04-27 19:23:07,004] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:23:14,211] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:23:14,877] {logging_mixin.py:104} INFO - [2021-04-27 19:23:14,877] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:23:15,186] {logging_mixin.py:104} INFO - [2021-04-27 19:23:15,186] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:23:15,441] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 8.674 seconds
+[2021-04-27 19:25:33,990] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:25:34,079] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:25:34,095] {logging_mixin.py:104} INFO - [2021-04-27 19:25:34,095] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:25:37,577] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:25:37,619] {logging_mixin.py:104} INFO - [2021-04-27 19:25:37,619] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:25:37,658] {logging_mixin.py:104} INFO - [2021-04-27 19:25:37,658] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:25:37,720] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 3.769 seconds
+[2021-04-27 19:26:08,661] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:26:08,778] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:26:08,785] {logging_mixin.py:104} INFO - [2021-04-27 19:26:08,785] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:26:19,675] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:26:19,716] {logging_mixin.py:104} INFO - [2021-04-27 19:26:19,716] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:26:19,755] {logging_mixin.py:104} INFO - [2021-04-27 19:26:19,754] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:26:20,134] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 11.481 seconds
+[2021-04-27 19:26:42,827] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:26:42,834] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:26:42,840] {logging_mixin.py:104} INFO - [2021-04-27 19:26:42,838] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:26:43,271] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:26:43,409] {scheduler_job.py:596} INFO - Executed failure callback for <TaskInstance: project_dag.create_tables 2019-05-01 00:00:00+00:00 [failed]> in state failed
+[2021-04-27 19:26:43,449] {logging_mixin.py:104} INFO - [2021-04-27 19:26:43,448] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:26:43,500] {logging_mixin.py:104} INFO - [2021-04-27 19:26:43,500] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:26:43,545] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.745 seconds
+[2021-04-27 19:27:13,741] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:27:13,744] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:27:13,746] {logging_mixin.py:104} INFO - [2021-04-27 19:27:13,745] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:27:14,024] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:27:14,127] {scheduler_job.py:596} INFO - Executed failure callback for <TaskInstance: project_dag.create_tables 2019-06-01 00:00:00+00:00 [failed]> in state failed
+[2021-04-27 19:27:14,154] {logging_mixin.py:104} INFO - [2021-04-27 19:27:14,153] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:27:14,218] {logging_mixin.py:104} INFO - [2021-04-27 19:27:14,218] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:27:14,273] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.538 seconds
+[2021-04-27 19:27:44,448] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:27:44,456] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:27:44,459] {logging_mixin.py:104} INFO - [2021-04-27 19:27:44,458] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:27:45,037] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:27:45,167] {logging_mixin.py:104} INFO - [2021-04-27 19:27:45,166] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:27:45,258] {logging_mixin.py:104} INFO - [2021-04-27 19:27:45,257] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:27:45,379] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.951 seconds
+[2021-04-27 19:28:15,772] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:28:15,774] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:28:15,799] {logging_mixin.py:104} INFO - [2021-04-27 19:28:15,775] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:28:16,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:28:16,606] {logging_mixin.py:104} INFO - [2021-04-27 19:28:16,606] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:28:16,642] {logging_mixin.py:104} INFO - [2021-04-27 19:28:16,642] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:28:16,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.974 seconds
+[2021-04-27 19:28:46,811] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:28:46,813] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:28:46,815] {logging_mixin.py:104} INFO - [2021-04-27 19:28:46,814] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:28:47,322] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:28:47,433] {logging_mixin.py:104} INFO - [2021-04-27 19:28:47,433] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:28:47,567] {logging_mixin.py:104} INFO - [2021-04-27 19:28:47,567] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:28:47,639] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.834 seconds
+[2021-04-27 19:29:17,777] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:29:17,781] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:29:17,785] {logging_mixin.py:104} INFO - [2021-04-27 19:29:17,785] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:29:18,236] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:29:18,320] {logging_mixin.py:104} INFO - [2021-04-27 19:29:18,319] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:29:18,392] {logging_mixin.py:104} INFO - [2021-04-27 19:29:18,392] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:29:18,482] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.712 seconds
+[2021-04-27 19:29:48,669] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:29:48,674] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:29:48,675] {logging_mixin.py:104} INFO - [2021-04-27 19:29:48,675] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:29:48,989] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:29:49,089] {logging_mixin.py:104} INFO - [2021-04-27 19:29:49,088] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:29:49,143] {logging_mixin.py:104} INFO - [2021-04-27 19:29:49,143] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:29:49,182] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.527 seconds
+[2021-04-27 19:30:19,302] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:30:19,305] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:30:19,308] {logging_mixin.py:104} INFO - [2021-04-27 19:30:19,308] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:30:19,638] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:30:19,681] {logging_mixin.py:104} INFO - [2021-04-27 19:30:19,681] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:30:19,718] {logging_mixin.py:104} INFO - [2021-04-27 19:30:19,717] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:30:19,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.449 seconds
+[2021-04-27 19:30:49,902] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:30:49,904] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:30:49,905] {logging_mixin.py:104} INFO - [2021-04-27 19:30:49,905] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:30:50,232] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:30:50,277] {logging_mixin.py:104} INFO - [2021-04-27 19:30:50,277] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:30:50,330] {logging_mixin.py:104} INFO - [2021-04-27 19:30:50,329] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:30:50,378] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.481 seconds
+[2021-04-27 19:31:20,585] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:31:20,587] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:31:20,588] {logging_mixin.py:104} INFO - [2021-04-27 19:31:20,588] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:31:20,861] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:31:20,906] {logging_mixin.py:104} INFO - [2021-04-27 19:31:20,906] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:31:20,942] {logging_mixin.py:104} INFO - [2021-04-27 19:31:20,942] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:31:21,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.462 seconds
+[2021-04-27 19:31:51,184] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:31:51,186] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:31:51,188] {logging_mixin.py:104} INFO - [2021-04-27 19:31:51,187] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:31:51,834] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:31:51,913] {logging_mixin.py:104} INFO - [2021-04-27 19:31:51,912] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:31:51,997] {logging_mixin.py:104} INFO - [2021-04-27 19:31:51,997] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:31:52,046] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.868 seconds
+[2021-04-27 19:32:22,224] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:32:22,226] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:32:22,227] {logging_mixin.py:104} INFO - [2021-04-27 19:32:22,227] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:32:22,582] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:32:22,658] {logging_mixin.py:104} INFO - [2021-04-27 19:32:22,657] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:32:22,698] {logging_mixin.py:104} INFO - [2021-04-27 19:32:22,697] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:32:22,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.524 seconds
+[2021-04-27 19:32:52,817] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:32:52,821] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:32:52,824] {logging_mixin.py:104} INFO - [2021-04-27 19:32:52,824] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:32:53,100] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:32:53,173] {logging_mixin.py:104} INFO - [2021-04-27 19:32:53,173] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:32:53,209] {logging_mixin.py:104} INFO - [2021-04-27 19:32:53,209] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:32:53,264] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.452 seconds
+[2021-04-27 19:33:23,375] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:33:23,378] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:33:23,382] {logging_mixin.py:104} INFO - [2021-04-27 19:33:23,381] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:33:23,678] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:33:23,726] {logging_mixin.py:104} INFO - [2021-04-27 19:33:23,726] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:33:23,766] {logging_mixin.py:104} INFO - [2021-04-27 19:33:23,765] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:33:23,828] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.459 seconds
+[2021-04-27 19:33:53,964] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:33:53,968] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:33:53,971] {logging_mixin.py:104} INFO - [2021-04-27 19:33:53,971] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:33:54,622] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:33:54,737] {logging_mixin.py:104} INFO - [2021-04-27 19:33:54,736] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:33:54,867] {logging_mixin.py:104} INFO - [2021-04-27 19:33:54,867] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:33:54,955] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.998 seconds
+[2021-04-27 19:34:25,125] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:34:25,127] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:34:25,128] {logging_mixin.py:104} INFO - [2021-04-27 19:34:25,128] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:34:25,459] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:34:25,505] {logging_mixin.py:104} INFO - [2021-04-27 19:34:25,505] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:34:25,541] {logging_mixin.py:104} INFO - [2021-04-27 19:34:25,541] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:34:25,565] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.447 seconds
+[2021-04-27 19:34:55,662] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:34:55,664] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:34:55,665] {logging_mixin.py:104} INFO - [2021-04-27 19:34:55,665] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:34:56,127] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:34:56,237] {logging_mixin.py:104} INFO - [2021-04-27 19:34:56,237] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:34:56,273] {logging_mixin.py:104} INFO - [2021-04-27 19:34:56,272] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:34:56,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.649 seconds
+[2021-04-27 19:35:26,397] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:35:26,398] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:35:26,404] {logging_mixin.py:104} INFO - [2021-04-27 19:35:26,399] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:35:26,909] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:35:26,955] {logging_mixin.py:104} INFO - [2021-04-27 19:35:26,954] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:35:26,988] {logging_mixin.py:104} INFO - [2021-04-27 19:35:26,988] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:35:27,033] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.645 seconds
+[2021-04-27 19:35:57,154] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:35:57,156] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:35:57,157] {logging_mixin.py:104} INFO - [2021-04-27 19:35:57,157] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:35:57,638] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:35:57,747] {logging_mixin.py:104} INFO - [2021-04-27 19:35:57,746] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:35:57,808] {logging_mixin.py:104} INFO - [2021-04-27 19:35:57,807] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:35:57,890] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.742 seconds
+[2021-04-27 19:36:28,052] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:36:28,054] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:36:28,055] {logging_mixin.py:104} INFO - [2021-04-27 19:36:28,055] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:36:28,352] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:36:28,397] {logging_mixin.py:104} INFO - [2021-04-27 19:36:28,397] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:36:28,433] {logging_mixin.py:104} INFO - [2021-04-27 19:36:28,433] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:36:28,495] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.449 seconds
+[2021-04-27 19:36:58,606] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:36:58,611] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:36:58,614] {logging_mixin.py:104} INFO - [2021-04-27 19:36:58,614] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:36:58,914] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:36:59,037] {logging_mixin.py:104} INFO - [2021-04-27 19:36:59,036] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:36:59,098] {logging_mixin.py:104} INFO - [2021-04-27 19:36:59,098] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:36:59,187] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.592 seconds
+[2021-04-27 19:37:29,331] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:37:29,335] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:37:29,339] {logging_mixin.py:104} INFO - [2021-04-27 19:37:29,339] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:37:29,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:37:29,790] {logging_mixin.py:104} INFO - [2021-04-27 19:37:29,789] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:37:29,845] {logging_mixin.py:104} INFO - [2021-04-27 19:37:29,844] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:37:29,913] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.588 seconds
+[2021-04-27 19:38:00,109] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:38:00,111] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:38:00,121] {logging_mixin.py:104} INFO - [2021-04-27 19:38:00,121] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:38:00,782] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:38:00,846] {logging_mixin.py:104} INFO - [2021-04-27 19:38:00,846] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:38:00,892] {logging_mixin.py:104} INFO - [2021-04-27 19:38:00,892] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:38:00,959] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.866 seconds
+[2021-04-27 19:38:31,083] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:38:31,085] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:38:31,086] {logging_mixin.py:104} INFO - [2021-04-27 19:38:31,086] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:38:31,555] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:38:31,601] {logging_mixin.py:104} INFO - [2021-04-27 19:38:31,601] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:38:31,638] {logging_mixin.py:104} INFO - [2021-04-27 19:38:31,638] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:38:31,670] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.594 seconds
+[2021-04-27 19:39:01,755] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:39:01,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:39:01,758] {logging_mixin.py:104} INFO - [2021-04-27 19:39:01,757] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:39:02,075] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:39:02,148] {logging_mixin.py:104} INFO - [2021-04-27 19:39:02,148] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:39:02,230] {logging_mixin.py:104} INFO - [2021-04-27 19:39:02,229] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:39:02,354] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.605 seconds
+[2021-04-27 19:39:32,451] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:39:32,456] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:39:32,459] {logging_mixin.py:104} INFO - [2021-04-27 19:39:32,458] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:39:32,817] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:39:32,885] {logging_mixin.py:104} INFO - [2021-04-27 19:39:32,885] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:39:32,919] {logging_mixin.py:104} INFO - [2021-04-27 19:39:32,919] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:39:32,948] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.502 seconds
+[2021-04-27 19:40:03,037] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:40:03,042] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:40:03,045] {logging_mixin.py:104} INFO - [2021-04-27 19:40:03,045] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:40:03,686] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:40:03,730] {logging_mixin.py:104} INFO - [2021-04-27 19:40:03,730] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:40:03,770] {logging_mixin.py:104} INFO - [2021-04-27 19:40:03,770] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:40:03,866] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.851 seconds
+[2021-04-27 19:40:33,977] {scheduler_job.py:182} INFO - Started process (PID=53) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:40:33,980] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:40:33,983] {logging_mixin.py:104} INFO - [2021-04-27 19:40:33,982] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:40:34,406] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:40:34,468] {logging_mixin.py:104} INFO - [2021-04-27 19:40:34,467] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:40:34,508] {logging_mixin.py:104} INFO - [2021-04-27 19:40:34,508] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:40:34,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.601 seconds
+[2021-04-27 19:41:04,687] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:41:04,691] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:41:04,694] {logging_mixin.py:104} INFO - [2021-04-27 19:41:04,694] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:41:05,060] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:41:05,114] {logging_mixin.py:104} INFO - [2021-04-27 19:41:05,114] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:41:05,180] {logging_mixin.py:104} INFO - [2021-04-27 19:41:05,180] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:41:05,201] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.524 seconds
+[2021-04-27 19:41:35,314] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:41:35,327] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:41:35,328] {logging_mixin.py:104} INFO - [2021-04-27 19:41:35,328] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:41:36,502] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:41:36,710] {logging_mixin.py:104} INFO - [2021-04-27 19:41:36,710] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:41:36,873] {logging_mixin.py:104} INFO - [2021-04-27 19:41:36,873] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:41:36,936] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.628 seconds
+[2021-04-27 19:42:07,008] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:42:07,010] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:42:07,011] {logging_mixin.py:104} INFO - [2021-04-27 19:42:07,011] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:42:07,410] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:42:07,489] {logging_mixin.py:104} INFO - [2021-04-27 19:42:07,489] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:42:07,556] {logging_mixin.py:104} INFO - [2021-04-27 19:42:07,555] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:42:07,607] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.604 seconds
+[2021-04-27 19:42:37,699] {scheduler_job.py:182} INFO - Started process (PID=57) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:42:37,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:42:37,702] {logging_mixin.py:104} INFO - [2021-04-27 19:42:37,701] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:42:38,195] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:42:38,290] {logging_mixin.py:104} INFO - [2021-04-27 19:42:38,290] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:42:38,358] {logging_mixin.py:104} INFO - [2021-04-27 19:42:38,358] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:42:38,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.711 seconds
+[2021-04-27 19:43:08,511] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:43:08,512] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:43:08,514] {logging_mixin.py:104} INFO - [2021-04-27 19:43:08,513] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:43:08,895] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:43:09,000] {logging_mixin.py:104} INFO - [2021-04-27 19:43:09,000] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:43:09,079] {logging_mixin.py:104} INFO - [2021-04-27 19:43:09,079] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:43:09,134] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.629 seconds
+[2021-04-27 19:43:39,263] {scheduler_job.py:182} INFO - Started process (PID=59) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:43:39,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:43:39,266] {logging_mixin.py:104} INFO - [2021-04-27 19:43:39,266] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:43:39,661] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:43:39,705] {logging_mixin.py:104} INFO - [2021-04-27 19:43:39,705] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:43:39,740] {logging_mixin.py:104} INFO - [2021-04-27 19:43:39,740] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:43:39,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.517 seconds
+[2021-04-27 19:44:09,802] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:44:09,806] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:44:09,810] {logging_mixin.py:104} INFO - [2021-04-27 19:44:09,810] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:44:10,155] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:44:10,202] {logging_mixin.py:104} INFO - [2021-04-27 19:44:10,202] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:44:10,239] {logging_mixin.py:104} INFO - [2021-04-27 19:44:10,239] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:44:10,272] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.475 seconds
+[2021-04-27 19:44:40,388] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:44:40,393] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:44:40,394] {logging_mixin.py:104} INFO - [2021-04-27 19:44:40,394] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:44:40,719] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:44:40,760] {logging_mixin.py:104} INFO - [2021-04-27 19:44:40,760] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:44:40,795] {logging_mixin.py:104} INFO - [2021-04-27 19:44:40,795] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:44:40,854] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.471 seconds
+[2021-04-27 19:45:10,961] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:45:10,963] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:45:10,964] {logging_mixin.py:104} INFO - [2021-04-27 19:45:10,964] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:45:11,340] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:45:11,393] {logging_mixin.py:104} INFO - [2021-04-27 19:45:11,393] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:45:11,436] {logging_mixin.py:104} INFO - [2021-04-27 19:45:11,436] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:45:11,499] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.543 seconds
+[2021-04-27 19:45:41,675] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:45:41,679] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:45:41,682] {logging_mixin.py:104} INFO - [2021-04-27 19:45:41,682] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:45:42,168] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:45:42,281] {logging_mixin.py:104} INFO - [2021-04-27 19:45:42,280] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:45:42,373] {logging_mixin.py:104} INFO - [2021-04-27 19:45:42,373] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:45:42,450] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.780 seconds
+[2021-04-27 19:46:12,577] {scheduler_job.py:182} INFO - Started process (PID=64) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:46:12,579] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:46:12,581] {logging_mixin.py:104} INFO - [2021-04-27 19:46:12,580] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:46:12,991] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:46:13,036] {logging_mixin.py:104} INFO - [2021-04-27 19:46:13,036] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:46:13,080] {logging_mixin.py:104} INFO - [2021-04-27 19:46:13,079] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:46:13,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.552 seconds
+[2021-04-27 19:46:43,233] {scheduler_job.py:182} INFO - Started process (PID=65) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:46:43,237] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:46:43,239] {logging_mixin.py:104} INFO - [2021-04-27 19:46:43,239] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:46:43,604] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:46:43,664] {logging_mixin.py:104} INFO - [2021-04-27 19:46:43,664] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:46:43,699] {logging_mixin.py:104} INFO - [2021-04-27 19:46:43,699] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:46:43,754] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.526 seconds
+[2021-04-27 19:47:13,844] {scheduler_job.py:182} INFO - Started process (PID=66) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:47:13,847] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:47:13,850] {logging_mixin.py:104} INFO - [2021-04-27 19:47:13,850] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:47:14,181] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:47:14,229] {logging_mixin.py:104} INFO - [2021-04-27 19:47:14,229] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:47:14,271] {logging_mixin.py:104} INFO - [2021-04-27 19:47:14,271] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:47:14,352] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.513 seconds
+[2021-04-27 19:47:44,524] {scheduler_job.py:182} INFO - Started process (PID=67) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:47:44,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:47:44,528] {logging_mixin.py:104} INFO - [2021-04-27 19:47:44,528] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:47:45,009] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:47:45,139] {logging_mixin.py:104} INFO - [2021-04-27 19:47:45,139] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:47:45,227] {logging_mixin.py:104} INFO - [2021-04-27 19:47:45,226] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:47:45,271] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.759 seconds
+[2021-04-27 19:48:15,404] {scheduler_job.py:182} INFO - Started process (PID=68) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:48:15,409] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:48:15,410] {logging_mixin.py:104} INFO - [2021-04-27 19:48:15,410] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:48:15,868] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:48:15,925] {logging_mixin.py:104} INFO - [2021-04-27 19:48:15,924] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:48:15,972] {logging_mixin.py:104} INFO - [2021-04-27 19:48:15,972] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:48:15,998] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.603 seconds
+[2021-04-27 19:48:46,100] {scheduler_job.py:182} INFO - Started process (PID=69) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:48:46,102] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:48:46,113] {logging_mixin.py:104} INFO - [2021-04-27 19:48:46,112] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:48:46,425] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:48:46,470] {logging_mixin.py:104} INFO - [2021-04-27 19:48:46,470] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:48:46,505] {logging_mixin.py:104} INFO - [2021-04-27 19:48:46,504] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:48:46,560] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.465 seconds
+[2021-04-27 19:49:16,653] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:49:16,655] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:49:16,656] {logging_mixin.py:104} INFO - [2021-04-27 19:49:16,656] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:49:16,924] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:49:16,967] {logging_mixin.py:104} INFO - [2021-04-27 19:49:16,967] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:49:17,005] {logging_mixin.py:104} INFO - [2021-04-27 19:49:17,005] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:49:17,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.438 seconds
+[2021-04-27 19:49:47,176] {scheduler_job.py:182} INFO - Started process (PID=71) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:49:47,180] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:49:47,181] {logging_mixin.py:104} INFO - [2021-04-27 19:49:47,181] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:49:47,565] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:49:47,611] {logging_mixin.py:104} INFO - [2021-04-27 19:49:47,611] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:49:47,647] {logging_mixin.py:104} INFO - [2021-04-27 19:49:47,647] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:49:47,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.542 seconds
+[2021-04-27 19:50:17,863] {scheduler_job.py:182} INFO - Started process (PID=72) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:50:17,880] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:50:17,881] {logging_mixin.py:104} INFO - [2021-04-27 19:50:17,881] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:50:18,533] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:50:18,597] {logging_mixin.py:104} INFO - [2021-04-27 19:50:18,597] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:50:18,643] {logging_mixin.py:104} INFO - [2021-04-27 19:50:18,643] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:50:18,685] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.831 seconds
+[2021-04-27 19:50:48,796] {scheduler_job.py:182} INFO - Started process (PID=73) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:50:48,798] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:50:48,799] {logging_mixin.py:104} INFO - [2021-04-27 19:50:48,799] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:50:49,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:50:49,140] {logging_mixin.py:104} INFO - [2021-04-27 19:50:49,140] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:50:49,183] {logging_mixin.py:104} INFO - [2021-04-27 19:50:49,183] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:50:49,216] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.426 seconds
+[2021-04-27 19:51:19,314] {scheduler_job.py:182} INFO - Started process (PID=74) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:51:19,318] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:51:19,320] {logging_mixin.py:104} INFO - [2021-04-27 19:51:19,320] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:51:19,599] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:51:19,650] {logging_mixin.py:104} INFO - [2021-04-27 19:51:19,650] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:51:19,687] {logging_mixin.py:104} INFO - [2021-04-27 19:51:19,687] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:51:19,767] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.461 seconds
+[2021-04-27 19:51:49,911] {scheduler_job.py:182} INFO - Started process (PID=75) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:51:49,913] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:51:49,915] {logging_mixin.py:104} INFO - [2021-04-27 19:51:49,914] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:51:50,271] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:51:50,354] {logging_mixin.py:104} INFO - [2021-04-27 19:51:50,353] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:51:50,388] {logging_mixin.py:104} INFO - [2021-04-27 19:51:50,387] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:51:50,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.611 seconds
+[2021-04-27 19:52:20,544] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:52:20,546] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:52:20,547] {logging_mixin.py:104} INFO - [2021-04-27 19:52:20,547] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:52:20,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:52:20,931] {logging_mixin.py:104} INFO - [2021-04-27 19:52:20,931] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:52:21,020] {logging_mixin.py:104} INFO - [2021-04-27 19:52:21,020] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:52:21,075] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.536 seconds
+[2021-04-27 19:52:51,204] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:52:51,205] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:52:51,207] {logging_mixin.py:104} INFO - [2021-04-27 19:52:51,206] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:52:51,795] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:52:51,850] {logging_mixin.py:104} INFO - [2021-04-27 19:52:51,850] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:52:51,888] {logging_mixin.py:104} INFO - [2021-04-27 19:52:51,888] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:52:51,949] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.759 seconds
+[2021-04-27 19:53:22,046] {scheduler_job.py:182} INFO - Started process (PID=78) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:53:22,050] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:53:22,051] {logging_mixin.py:104} INFO - [2021-04-27 19:53:22,051] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:53:22,341] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:53:22,396] {logging_mixin.py:104} INFO - [2021-04-27 19:53:22,396] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:53:22,431] {logging_mixin.py:104} INFO - [2021-04-27 19:53:22,430] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:53:22,489] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.454 seconds
+[2021-04-27 19:53:52,587] {scheduler_job.py:182} INFO - Started process (PID=79) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:53:52,589] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:53:52,591] {logging_mixin.py:104} INFO - [2021-04-27 19:53:52,591] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:53:52,859] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:53:52,908] {logging_mixin.py:104} INFO - [2021-04-27 19:53:52,907] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:53:52,942] {logging_mixin.py:104} INFO - [2021-04-27 19:53:52,942] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:53:53,042] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.461 seconds
+[2021-04-27 19:54:23,151] {scheduler_job.py:182} INFO - Started process (PID=80) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:54:23,153] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:54:23,154] {logging_mixin.py:104} INFO - [2021-04-27 19:54:23,154] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:54:23,440] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:54:23,506] {logging_mixin.py:104} INFO - [2021-04-27 19:54:23,506] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:54:23,571] {logging_mixin.py:104} INFO - [2021-04-27 19:54:23,571] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:54:23,601] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.455 seconds
+[2021-04-27 19:54:53,701] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:54:53,704] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:54:53,707] {logging_mixin.py:104} INFO - [2021-04-27 19:54:53,707] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:54:54,069] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:54:54,139] {logging_mixin.py:104} INFO - [2021-04-27 19:54:54,139] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:54:54,183] {logging_mixin.py:104} INFO - [2021-04-27 19:54:54,183] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:54:54,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.514 seconds
+[2021-04-27 19:55:24,315] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:55:24,321] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:55:24,322] {logging_mixin.py:104} INFO - [2021-04-27 19:55:24,322] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:55:24,612] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:55:24,665] {logging_mixin.py:104} INFO - [2021-04-27 19:55:24,664] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:55:24,700] {logging_mixin.py:104} INFO - [2021-04-27 19:55:24,700] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:55:24,731] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.423 seconds
+[2021-04-27 19:55:54,878] {scheduler_job.py:182} INFO - Started process (PID=83) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:55:54,881] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:55:54,882] {logging_mixin.py:104} INFO - [2021-04-27 19:55:54,882] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:55:55,160] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:55:55,211] {logging_mixin.py:104} INFO - [2021-04-27 19:55:55,210] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:55:55,246] {logging_mixin.py:104} INFO - [2021-04-27 19:55:55,246] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:55:55,305] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.437 seconds
+[2021-04-27 19:56:25,406] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:56:25,409] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:56:25,410] {logging_mixin.py:104} INFO - [2021-04-27 19:56:25,410] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:56:25,675] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:56:25,729] {logging_mixin.py:104} INFO - [2021-04-27 19:56:25,729] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:56:25,766] {logging_mixin.py:104} INFO - [2021-04-27 19:56:25,766] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:56:25,829] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.428 seconds
+[2021-04-27 19:56:55,925] {scheduler_job.py:182} INFO - Started process (PID=85) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:56:55,926] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:56:55,928] {logging_mixin.py:104} INFO - [2021-04-27 19:56:55,927] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:56:56,203] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:56:56,246] {logging_mixin.py:104} INFO - [2021-04-27 19:56:56,246] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:56:56,283] {logging_mixin.py:104} INFO - [2021-04-27 19:56:56,283] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:56:56,360] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.440 seconds
+[2021-04-27 19:57:26,468] {scheduler_job.py:182} INFO - Started process (PID=86) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:57:26,471] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:57:26,472] {logging_mixin.py:104} INFO - [2021-04-27 19:57:26,472] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:57:26,741] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:57:26,794] {logging_mixin.py:104} INFO - [2021-04-27 19:57:26,793] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:57:26,831] {logging_mixin.py:104} INFO - [2021-04-27 19:57:26,831] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:57:26,865] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.403 seconds
+[2021-04-27 19:57:56,980] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:57:56,983] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:57:56,984] {logging_mixin.py:104} INFO - [2021-04-27 19:57:56,984] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:57:57,308] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:57:57,358] {logging_mixin.py:104} INFO - [2021-04-27 19:57:57,358] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:57:57,415] {logging_mixin.py:104} INFO - [2021-04-27 19:57:57,415] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:57:57,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.508 seconds
+[2021-04-27 19:58:27,595] {scheduler_job.py:182} INFO - Started process (PID=88) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:58:27,597] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:58:27,598] {logging_mixin.py:104} INFO - [2021-04-27 19:58:27,598] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:58:27,905] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:58:27,960] {logging_mixin.py:104} INFO - [2021-04-27 19:58:27,960] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:58:27,994] {logging_mixin.py:104} INFO - [2021-04-27 19:58:27,994] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:58:28,057] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.467 seconds
+[2021-04-27 19:58:58,204] {scheduler_job.py:182} INFO - Started process (PID=89) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:58:58,206] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:58:58,207] {logging_mixin.py:104} INFO - [2021-04-27 19:58:58,207] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:58:58,503] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:58:58,559] {logging_mixin.py:104} INFO - [2021-04-27 19:58:58,559] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:58:58,594] {logging_mixin.py:104} INFO - [2021-04-27 19:58:58,594] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:58:58,621] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.425 seconds
+[2021-04-27 19:59:28,711] {scheduler_job.py:182} INFO - Started process (PID=90) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:59:28,714] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:59:28,715] {logging_mixin.py:104} INFO - [2021-04-27 19:59:28,715] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:59:28,983] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:59:29,031] {logging_mixin.py:104} INFO - [2021-04-27 19:59:29,031] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:59:29,065] {logging_mixin.py:104} INFO - [2021-04-27 19:59:29,065] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:59:29,129] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.423 seconds
+[2021-04-27 19:59:59,257] {scheduler_job.py:182} INFO - Started process (PID=91) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:59:59,261] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 19:59:59,265] {logging_mixin.py:104} INFO - [2021-04-27 19:59:59,265] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:59:59,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 19:59:59,768] {logging_mixin.py:104} INFO - [2021-04-27 19:59:59,768] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 19:59:59,822] {logging_mixin.py:104} INFO - [2021-04-27 19:59:59,821] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 19:59:59,899] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.650 seconds
+[2021-04-27 20:00:30,018] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:00:30,020] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:00:30,021] {logging_mixin.py:104} INFO - [2021-04-27 20:00:30,021] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:00:30,333] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:00:30,382] {logging_mixin.py:104} INFO - [2021-04-27 20:00:30,381] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:00:30,478] {logging_mixin.py:104} INFO - [2021-04-27 20:00:30,478] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:00:30,529] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.518 seconds
+[2021-04-27 20:01:00,629] {scheduler_job.py:182} INFO - Started process (PID=93) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:01:00,631] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:01:00,632] {logging_mixin.py:104} INFO - [2021-04-27 20:01:00,632] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:01:00,902] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:01:00,956] {logging_mixin.py:104} INFO - [2021-04-27 20:01:00,956] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:01:00,992] {logging_mixin.py:104} INFO - [2021-04-27 20:01:00,992] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:01:01,056] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.432 seconds
+[2021-04-27 20:01:31,203] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:01:31,210] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:01:31,211] {logging_mixin.py:104} INFO - [2021-04-27 20:01:31,211] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:01:31,590] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:01:31,659] {logging_mixin.py:104} INFO - [2021-04-27 20:01:31,659] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:01:31,699] {logging_mixin.py:104} INFO - [2021-04-27 20:01:31,698] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:01:31,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.550 seconds
+[2021-04-27 20:08:53,404] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:08:53,456] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:08:53,457] {logging_mixin.py:104} INFO - [2021-04-27 20:08:53,457] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:08:55,437] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:08:55,514] {logging_mixin.py:104} INFO - [2021-04-27 20:08:55,513] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:08:55,537] {logging_mixin.py:104} INFO - [2021-04-27 20:08:55,536] {dag.py:1843} INFO - Creating ORM DAG for project_dag
+[2021-04-27 20:08:55,581] {logging_mixin.py:104} INFO - [2021-04-27 20:08:55,580] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:08:55,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.242 seconds
+[2021-04-27 20:09:25,909] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:09:26,046] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:09:26,048] {logging_mixin.py:104} INFO - [2021-04-27 20:09:26,048] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:09:31,516] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:09:31,699] {logging_mixin.py:104} INFO - [2021-04-27 20:09:31,699] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:09:31,797] {logging_mixin.py:104} INFO - [2021-04-27 20:09:31,796] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:09:31,857] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 5.953 seconds
+[2021-04-27 20:10:02,159] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:10:02,161] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:10:02,163] {logging_mixin.py:104} INFO - [2021-04-27 20:10:02,163] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:10:03,398] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:10:03,486] {logging_mixin.py:104} INFO - [2021-04-27 20:10:03,486] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:10:03,583] {logging_mixin.py:104} INFO - [2021-04-27 20:10:03,583] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:10:03,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.503 seconds
+[2021-04-27 20:10:33,783] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:10:33,883] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:10:33,930] {logging_mixin.py:104} INFO - [2021-04-27 20:10:33,930] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:10:35,930] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:10:36,723] {logging_mixin.py:104} INFO - [2021-04-27 20:10:36,723] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:10:37,198] {logging_mixin.py:104} INFO - [2021-04-27 20:10:37,197] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:10:37,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 3.955 seconds
+[2021-04-27 20:11:07,885] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:11:07,983] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:11:07,987] {logging_mixin.py:104} INFO - [2021-04-27 20:11:07,987] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:11:16,433] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:11:19,078] {logging_mixin.py:104} INFO - [2021-04-27 20:11:19,077] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:11:19,701] {logging_mixin.py:104} INFO - [2021-04-27 20:11:19,701] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:11:20,079] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 12.202 seconds
+[2021-04-27 20:11:50,218] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:11:50,220] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:11:50,228] {logging_mixin.py:104} INFO - [2021-04-27 20:11:50,221] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:11:50,668] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:11:50,713] {logging_mixin.py:104} INFO - [2021-04-27 20:11:50,712] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:11:50,752] {logging_mixin.py:104} INFO - [2021-04-27 20:11:50,751] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:11:50,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.584 seconds
+[2021-04-27 20:12:20,879] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:12:20,883] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:12:20,886] {logging_mixin.py:104} INFO - [2021-04-27 20:12:20,886] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:12:21,277] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:12:21,333] {logging_mixin.py:104} INFO - [2021-04-27 20:12:21,333] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:12:21,498] {logging_mixin.py:104} INFO - [2021-04-27 20:12:21,498] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:12:21,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.680 seconds
+[2021-04-27 20:12:51,652] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:12:51,654] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:12:51,656] {logging_mixin.py:104} INFO - [2021-04-27 20:12:51,655] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:12:52,074] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:12:52,179] {logging_mixin.py:104} INFO - [2021-04-27 20:12:52,178] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:12:52,241] {logging_mixin.py:104} INFO - [2021-04-27 20:12:52,241] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:12:52,282] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.636 seconds
+[2021-04-27 20:13:22,537] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:13:22,539] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:13:22,540] {logging_mixin.py:104} INFO - [2021-04-27 20:13:22,540] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:13:23,084] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:13:23,215] {logging_mixin.py:104} INFO - [2021-04-27 20:13:23,214] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:13:23,339] {logging_mixin.py:104} INFO - [2021-04-27 20:13:23,335] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:13:23,428] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.045 seconds
+[2021-04-27 20:13:53,610] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:13:53,614] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:13:53,616] {logging_mixin.py:104} INFO - [2021-04-27 20:13:53,616] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:13:53,980] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:13:54,052] {logging_mixin.py:104} INFO - [2021-04-27 20:13:54,051] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:13:54,123] {logging_mixin.py:104} INFO - [2021-04-27 20:13:54,123] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:13:54,158] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.553 seconds
+[2021-04-27 20:14:26,325] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:14:26,430] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:14:26,819] {logging_mixin.py:104} INFO - [2021-04-27 20:14:26,664] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:14:48,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:14:50,669] {logging_mixin.py:104} INFO - [2021-04-27 20:14:50,669] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:14:52,182] {logging_mixin.py:104} INFO - [2021-04-27 20:14:52,181] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:14:52,413] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 26.475 seconds
+[2021-04-27 20:15:22,924] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:15:23,045] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:15:23,095] {logging_mixin.py:104} INFO - [2021-04-27 20:15:23,095] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:15:39,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:15:39,658] {logging_mixin.py:104} INFO - [2021-04-27 20:15:39,658] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:15:39,749] {logging_mixin.py:104} INFO - [2021-04-27 20:15:39,749] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:15:39,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 16.959 seconds
+[2021-04-27 20:16:10,289] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:16:10,291] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:16:10,293] {logging_mixin.py:104} INFO - [2021-04-27 20:16:10,292] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:16:11,028] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:16:11,340] {logging_mixin.py:104} INFO - [2021-04-27 20:16:11,340] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:16:11,601] {logging_mixin.py:104} INFO - [2021-04-27 20:16:11,601] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:16:11,733] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.455 seconds
+[2021-04-27 20:16:42,000] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:16:42,019] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:16:42,037] {logging_mixin.py:104} INFO - [2021-04-27 20:16:42,037] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:16:43,728] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:16:43,963] {logging_mixin.py:104} INFO - [2021-04-27 20:16:43,963] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:16:44,158] {logging_mixin.py:104} INFO - [2021-04-27 20:16:44,158] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:16:44,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.269 seconds
+[2021-04-27 20:17:14,393] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:17:14,418] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:17:14,427] {logging_mixin.py:104} INFO - [2021-04-27 20:17:14,427] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:17:14,830] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:17:14,891] {logging_mixin.py:104} INFO - [2021-04-27 20:17:14,890] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:17:14,933] {logging_mixin.py:104} INFO - [2021-04-27 20:17:14,933] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:17:14,993] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.617 seconds
+[2021-04-27 20:17:45,122] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:17:45,125] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:17:45,128] {logging_mixin.py:104} INFO - [2021-04-27 20:17:45,127] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:17:45,409] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:17:45,476] {logging_mixin.py:104} INFO - [2021-04-27 20:17:45,476] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:17:45,511] {logging_mixin.py:104} INFO - [2021-04-27 20:17:45,511] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:17:45,561] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.444 seconds
+[2021-04-27 20:18:15,617] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:18:15,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:18:15,623] {logging_mixin.py:104} INFO - [2021-04-27 20:18:15,622] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:18:15,984] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:18:16,050] {logging_mixin.py:104} INFO - [2021-04-27 20:18:16,050] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:18:16,098] {logging_mixin.py:104} INFO - [2021-04-27 20:18:16,098] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:18:16,139] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.529 seconds
+[2021-04-27 20:18:46,237] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:18:46,241] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:18:46,243] {logging_mixin.py:104} INFO - [2021-04-27 20:18:46,243] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:18:46,580] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:18:46,626] {logging_mixin.py:104} INFO - [2021-04-27 20:18:46,626] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:18:46,662] {logging_mixin.py:104} INFO - [2021-04-27 20:18:46,662] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:18:46,750] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.518 seconds
+[2021-04-27 20:19:16,914] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:19:16,915] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:19:16,917] {logging_mixin.py:104} INFO - [2021-04-27 20:19:16,916] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:19:17,205] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:19:17,256] {logging_mixin.py:104} INFO - [2021-04-27 20:19:17,255] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:19:17,292] {logging_mixin.py:104} INFO - [2021-04-27 20:19:17,292] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:19:17,325] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.417 seconds
+[2021-04-27 20:19:47,443] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:19:47,448] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:19:47,450] {logging_mixin.py:104} INFO - [2021-04-27 20:19:47,450] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:19:47,739] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:19:47,789] {logging_mixin.py:104} INFO - [2021-04-27 20:19:47,789] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:19:47,828] {logging_mixin.py:104} INFO - [2021-04-27 20:19:47,828] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:19:47,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.455 seconds
+[2021-04-27 20:20:17,988] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:20:17,992] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:20:17,993] {logging_mixin.py:104} INFO - [2021-04-27 20:20:17,993] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:20:18,326] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:20:18,387] {logging_mixin.py:104} INFO - [2021-04-27 20:20:18,387] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:20:18,426] {logging_mixin.py:104} INFO - [2021-04-27 20:20:18,426] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:20:18,456] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.473 seconds
+[2021-04-27 20:20:48,577] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:20:48,581] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:20:48,584] {logging_mixin.py:104} INFO - [2021-04-27 20:20:48,584] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:20:48,860] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:20:48,913] {logging_mixin.py:104} INFO - [2021-04-27 20:20:48,912] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:20:48,949] {logging_mixin.py:104} INFO - [2021-04-27 20:20:48,949] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:20:49,018] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.446 seconds
+[2021-04-27 20:29:32,481] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:29:32,504] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:29:32,508] {logging_mixin.py:104} INFO - [2021-04-27 20:29:32,507] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:29:34,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:29:34,301] {logging_mixin.py:104} INFO - [2021-04-27 20:29:34,301] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:29:34,330] {logging_mixin.py:104} INFO - [2021-04-27 20:29:34,330] {dag.py:1843} INFO - Creating ORM DAG for project_dag
+[2021-04-27 20:29:34,373] {logging_mixin.py:104} INFO - [2021-04-27 20:29:34,372] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:29:34,458] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.017 seconds
+[2021-04-27 20:30:04,673] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:30:04,675] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:30:04,697] {logging_mixin.py:104} INFO - [2021-04-27 20:30:04,697] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:30:05,612] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:30:05,789] {logging_mixin.py:104} INFO - [2021-04-27 20:30:05,789] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:30:05,961] {logging_mixin.py:104} INFO - [2021-04-27 20:30:05,953] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:30:06,022] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.383 seconds
+[2021-04-27 20:30:36,179] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:30:36,181] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:30:36,182] {logging_mixin.py:104} INFO - [2021-04-27 20:30:36,182] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:30:37,039] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:30:37,175] {logging_mixin.py:104} INFO - [2021-04-27 20:30:37,174] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:30:37,232] {logging_mixin.py:104} INFO - [2021-04-27 20:30:37,232] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:30:37,283] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.111 seconds
+[2021-04-27 20:31:07,398] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:31:07,400] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:31:07,402] {logging_mixin.py:104} INFO - [2021-04-27 20:31:07,401] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:31:07,967] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:31:08,027] {logging_mixin.py:104} INFO - [2021-04-27 20:31:08,027] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:31:08,064] {logging_mixin.py:104} INFO - [2021-04-27 20:31:08,064] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:31:08,117] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.726 seconds
+[2021-04-27 20:31:38,266] {scheduler_job.py:182} INFO - Started process (PID=28) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:31:38,272] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:31:38,275] {logging_mixin.py:104} INFO - [2021-04-27 20:31:38,275] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:31:38,985] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:31:39,070] {logging_mixin.py:104} INFO - [2021-04-27 20:31:39,069] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:31:39,180] {logging_mixin.py:104} INFO - [2021-04-27 20:31:39,180] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-02-01 00:00:00+00:00
+[2021-04-27 20:31:39,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.973 seconds
+[2021-04-27 20:32:09,501] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:32:09,503] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:32:09,525] {logging_mixin.py:104} INFO - [2021-04-27 20:32:09,525] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:32:11,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:32:12,042] {logging_mixin.py:104} INFO - [2021-04-27 20:32:12,042] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:32:12,099] {logging_mixin.py:104} INFO - [2021-04-27 20:32:12,099] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2019-07-01 00:00:00+00:00
+[2021-04-27 20:32:12,708] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 3.226 seconds
+[2021-04-27 20:32:43,317] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:32:43,358] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:32:43,375] {logging_mixin.py:104} INFO - [2021-04-27 20:32:43,359] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:32:49,245] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:32:49,527] {logging_mixin.py:104} INFO - [2021-04-27 20:32:49,527] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:32:49,678] {logging_mixin.py:104} INFO - [2021-04-27 20:32:49,678] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-05-01 00:00:00+00:00
+[2021-04-27 20:32:49,733] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 6.461 seconds
+[2021-04-27 20:33:20,709] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:33:20,739] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:33:20,764] {logging_mixin.py:104} INFO - [2021-04-27 20:33:20,764] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:33:25,678] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:33:26,553] {logging_mixin.py:104} INFO - [2021-04-27 20:33:26,553] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:33:27,088] {logging_mixin.py:104} INFO - [2021-04-27 20:33:27,088] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:33:27,352] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 7.029 seconds
+[2021-04-27 20:33:57,592] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:33:57,624] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:33:57,645] {logging_mixin.py:104} INFO - [2021-04-27 20:33:57,642] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:33:59,436] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:33:59,965] {logging_mixin.py:104} INFO - [2021-04-27 20:33:59,964] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:34:00,411] {logging_mixin.py:104} INFO - [2021-04-27 20:34:00,410] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:34:00,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 3.051 seconds
+[2021-04-27 20:34:31,087] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:34:31,111] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:34:31,134] {logging_mixin.py:104} INFO - [2021-04-27 20:34:31,134] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:34:32,563] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:34:32,945] {logging_mixin.py:104} INFO - [2021-04-27 20:34:32,945] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:34:33,073] {logging_mixin.py:104} INFO - [2021-04-27 20:34:33,073] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:34:33,304] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.255 seconds
+[2021-04-27 20:35:03,532] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:35:03,534] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:35:03,536] {logging_mixin.py:104} INFO - [2021-04-27 20:35:03,535] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:35:03,851] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:35:03,907] {logging_mixin.py:104} INFO - [2021-04-27 20:35:03,907] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:35:03,972] {logging_mixin.py:104} INFO - [2021-04-27 20:35:03,972] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:35:04,058] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.531 seconds
+[2021-04-27 20:35:34,203] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:35:34,205] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:35:34,206] {logging_mixin.py:104} INFO - [2021-04-27 20:35:34,206] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:35:34,574] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:35:34,617] {logging_mixin.py:104} INFO - [2021-04-27 20:35:34,617] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:35:34,652] {logging_mixin.py:104} INFO - [2021-04-27 20:35:34,652] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:35:34,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.495 seconds
+[2021-04-27 20:36:04,825] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:36:04,828] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:36:04,831] {logging_mixin.py:104} INFO - [2021-04-27 20:36:04,831] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:36:05,184] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:36:05,351] {logging_mixin.py:104} INFO - [2021-04-27 20:36:05,344] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:36:05,407] {logging_mixin.py:104} INFO - [2021-04-27 20:36:05,406] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:36:05,446] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.626 seconds
+[2021-04-27 20:36:35,555] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:36:35,557] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:36:35,558] {logging_mixin.py:104} INFO - [2021-04-27 20:36:35,558] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:36:35,946] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:36:36,039] {logging_mixin.py:104} INFO - [2021-04-27 20:36:36,038] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:36:36,122] {logging_mixin.py:104} INFO - [2021-04-27 20:36:36,121] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:36:36,197] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.648 seconds
+[2021-04-27 20:37:06,341] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:37:06,343] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:37:06,346] {logging_mixin.py:104} INFO - [2021-04-27 20:37:06,346] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:37:07,063] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:37:07,223] {logging_mixin.py:104} INFO - [2021-04-27 20:37:07,223] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:37:07,294] {logging_mixin.py:104} INFO - [2021-04-27 20:37:07,293] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:37:07,351] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.032 seconds
+[2021-04-27 20:37:37,598] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:37:37,613] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:37:37,614] {logging_mixin.py:104} INFO - [2021-04-27 20:37:37,614] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:37:38,889] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:37:38,943] {logging_mixin.py:104} INFO - [2021-04-27 20:37:38,943] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:37:38,982] {logging_mixin.py:104} INFO - [2021-04-27 20:37:38,982] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:37:39,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.679 seconds
+[2021-04-27 20:38:09,458] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:38:09,461] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:38:09,473] {logging_mixin.py:104} INFO - [2021-04-27 20:38:09,473] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:38:10,489] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:38:10,586] {logging_mixin.py:104} INFO - [2021-04-27 20:38:10,586] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:38:10,657] {logging_mixin.py:104} INFO - [2021-04-27 20:38:10,657] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:38:10,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.301 seconds
+[2021-04-27 20:38:41,082] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:38:41,090] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:38:41,091] {logging_mixin.py:104} INFO - [2021-04-27 20:38:41,091] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:38:42,245] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:38:42,459] {logging_mixin.py:104} INFO - [2021-04-27 20:38:42,458] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:38:42,518] {logging_mixin.py:104} INFO - [2021-04-27 20:38:42,517] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-06-01 00:00:00+00:00
+[2021-04-27 20:38:42,580] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.516 seconds
+[2021-04-27 20:39:12,811] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:39:12,824] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:39:12,832] {logging_mixin.py:104} INFO - [2021-04-27 20:39:12,832] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:39:14,386] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:39:14,617] {logging_mixin.py:104} INFO - [2021-04-27 20:39:14,616] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:39:14,742] {logging_mixin.py:104} INFO - [2021-04-27 20:39:14,742] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-11-01 00:00:00+00:00
+[2021-04-27 20:39:14,797] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.030 seconds
+[2021-04-27 20:39:47,079] {scheduler_job.py:182} INFO - Started process (PID=43) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:39:47,106] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:39:47,203] {logging_mixin.py:104} INFO - [2021-04-27 20:39:47,168] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:39:53,354] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:39:53,528] {logging_mixin.py:104} INFO - [2021-04-27 20:39:53,527] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:39:53,995] {logging_mixin.py:104} INFO - [2021-04-27 20:39:53,995] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2020-12-01 00:00:00+00:00
+[2021-04-27 20:39:54,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 7.125 seconds
+[2021-04-27 20:40:24,450] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:40:24,548] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:40:24,550] {logging_mixin.py:104} INFO - [2021-04-27 20:40:24,550] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:40:26,184] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:40:26,875] {logging_mixin.py:104} INFO - [2021-04-27 20:40:26,875] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:40:27,021] {logging_mixin.py:104} INFO - [2021-04-27 20:40:27,020] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:40:27,146] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 2.750 seconds
+[2021-04-27 20:40:57,346] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:40:57,350] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:40:57,353] {logging_mixin.py:104} INFO - [2021-04-27 20:40:57,353] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:40:57,712] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:40:57,877] {logging_mixin.py:104} INFO - [2021-04-27 20:40:57,876] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:40:58,073] {logging_mixin.py:104} INFO - [2021-04-27 20:40:58,072] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:40:58,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.807 seconds
+[2021-04-27 20:41:28,304] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:41:28,306] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:41:28,316] {logging_mixin.py:104} INFO - [2021-04-27 20:41:28,316] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:41:28,813] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:41:28,861] {logging_mixin.py:104} INFO - [2021-04-27 20:41:28,861] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:41:28,900] {logging_mixin.py:104} INFO - [2021-04-27 20:41:28,900] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:41:28,926] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.644 seconds
+[2021-04-27 20:41:59,217] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:41:59,221] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:41:59,223] {logging_mixin.py:104} INFO - [2021-04-27 20:41:59,223] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:41:59,822] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:41:59,875] {logging_mixin.py:104} INFO - [2021-04-27 20:41:59,874] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:41:59,912] {logging_mixin.py:104} INFO - [2021-04-27 20:41:59,911] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:41:59,948] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.739 seconds
+[2021-04-27 20:42:30,070] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:42:30,077] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:42:30,078] {logging_mixin.py:104} INFO - [2021-04-27 20:42:30,078] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:42:30,453] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:42:30,526] {logging_mixin.py:104} INFO - [2021-04-27 20:42:30,526] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:42:30,597] {logging_mixin.py:104} INFO - [2021-04-27 20:42:30,597] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:42:30,642] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.591 seconds
+[2021-04-27 20:43:00,728] {scheduler_job.py:182} INFO - Started process (PID=49) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:43:00,744] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:43:00,752] {logging_mixin.py:104} INFO - [2021-04-27 20:43:00,752] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:43:01,337] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:43:01,430] {logging_mixin.py:104} INFO - [2021-04-27 20:43:01,430] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:43:01,491] {logging_mixin.py:104} INFO - [2021-04-27 20:43:01,491] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:43:01,563] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.844 seconds
+[2021-04-27 20:43:31,773] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:43:31,793] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:43:31,801] {logging_mixin.py:104} INFO - [2021-04-27 20:43:31,800] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:43:32,933] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:43:33,037] {logging_mixin.py:104} INFO - [2021-04-27 20:43:33,037] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:43:33,097] {logging_mixin.py:104} INFO - [2021-04-27 20:43:33,097] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:43:33,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 1.446 seconds
+[2021-04-27 20:44:03,472] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:44:03,476] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/udac_example_dag.py for tasks to queue
+[2021-04-27 20:44:03,478] {logging_mixin.py:104} INFO - [2021-04-27 20:44:03,477] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:44:03,898] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['project_dag']) retrieved from /opt/airflow/dags/udac_example_dag.py
+[2021-04-27 20:44:03,946] {logging_mixin.py:104} INFO - [2021-04-27 20:44:03,946] {dag.py:1824} INFO - Sync 1 DAGs
+[2021-04-27 20:44:03,987] {logging_mixin.py:104} INFO - [2021-04-27 20:44:03,987] {dag.py:2280} INFO - Setting next_dagrun for project_dag to 2021-04-01 00:00:00+00:00
+[2021-04-27 20:44:04,029] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/udac_example_dag.py took 0.567 seconds
